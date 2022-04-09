@@ -4,7 +4,7 @@ Mailer is a python3 script.<br>It's used for sending spear-phishing to target em
 
 ## Screenshots
 <img src="mailer.jpg">
-<img> src="mailer2.jpg">
+<img src="mailer2.jpg">
 ```
 apt update
 apt upgrade
