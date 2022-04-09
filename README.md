@@ -12,3 +12,16 @@ cd Mailer
 python3 mailer.py
 
 ```
+## Installation for Linux
+
+```
+sudo apt update
+sudo apt upgrade
+sudo apt install python3
+sudo apt install pip
+sudo apt install git
+git clone https://github.com/spider863644/Mailer
+cd Mailer
+python3 mailer.py
+
+```
