@@ -1,10 +1,12 @@
 # Mailer
 Mailer is a python3 script.<br>It's used for sending spear-phishing to target email...It was created by Spider Anongreyhat
-## Installation for Termux
+
 
 ## Screenshots
 <img src="mailer.jpg">
 <img src="mailer2.jpg">
+
+## Installation for Termux
 
 ```
 apt update
