@@ -30,3 +30,10 @@ cd Mailer
 python3 mailer.py
 
 ```
+
+## Instructions
+1. Use a Facebook phishing link for Facebook attack
+2. Only send mail to a email address linked to the social media you wanna attack
+3. Use the victims valid username used on the social media you wanna attack
+4. Always turn on your data 
+5. Don't send mail to the wrong email
