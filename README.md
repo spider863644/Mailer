@@ -39,3 +39,12 @@ python3 mailerenc.py
 3. Use the victims valid username used on the social media you wanna attack
 4. Always turn on your data 
 5. Don't send mail to the wrong email
+
+
+## Note:
+For educational purposes only<br>
+I won't be responsible for any shit<br>
+<br>
+Support me by following me on GitHub<br>
+Don't forget to leave a star ⭐
+
