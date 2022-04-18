@@ -16,7 +16,7 @@ apt install pip2
 apt install git
 git clone https://github.com/spider863644/Mailer
 cd Mailer
-python3 mailer.py
+python3 mailerenc.py
 
 ```
 ## Installation for Linux
@@ -29,7 +29,7 @@ sudo apt install pip
 sudo apt install git
 git clone https://github.com/spider863644/Mailer
 cd Mailer
-python3 mailer.py
+python3 mailerenc.py
 
 ```
 
