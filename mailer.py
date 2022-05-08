@@ -1,6 +1,6 @@
+import pyfiglet
 try:
     import os
-    import pyfiglet
     import datetime
     import smtplib
     import ssl
