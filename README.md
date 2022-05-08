@@ -9,7 +9,15 @@ Mailer is a python3 script.<br>It's used for sending spear-phishing to target em
 ## Installation for Termux
 
 ```
-Not working on termux💔
+apt update
+apt upgrade
+apt install python3
+apt install pip
+pip install pyfiglet
+apt install git
+git clone https://github.com/spider863644/Mailer
+cd Mailer
+python3 mailer.py
 
 ```
 ## Installation for Linux
@@ -19,10 +27,11 @@ sudo apt update
 sudo apt upgrade
 sudo apt install python3
 sudo apt install pip
+sudo pip install pyfiglet
 sudo apt install git
 git clone https://github.com/spider863644/Mailer
 cd Mailer
-python3 mailerenc.py
+python3 mailer.py
 
 ```
 
