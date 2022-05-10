@@ -219,6 +219,7 @@ def loop():
                         server.sendmail(
                         sender, email, message.as_string()
                         )
+                        print(Fore.GREEN + "[√]Mail sent successfully")
                     except:
                         print(Fore.RED + "Message sent failed!")
                         t.sleep(3)
