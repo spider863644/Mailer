@@ -1,5 +1,5 @@
 # Mailer
-Mailer is a python3 script.<br>It's used for sending spear-phishing to target email...It was created by Spider Anongreyhat
+Mailer is a social engineering toolkit.<br>It's used for sending spear-phishing to target email...It was created by Spider Anongreyhat
 
 
 ## Screenshots
