@@ -15,7 +15,7 @@ apt install python3
 apt install pip
 pip install pyfiglet
 apt install git
-git clone https://github.com/spider863644/Mailer
+git clone https://github.com/SpiderAnongreyhat/Mailer
 cd Mailer
 python3 mailer.py
 
@@ -29,7 +29,7 @@ sudo apt install python3
 sudo apt install pip
 sudo pip install pyfiglet
 sudo apt install git
-git clone https://github.com/spider863644/Mailer
+git clone https://github.com/SpiderAnongreyhat/Mailer
 cd Mailer
 python3 mailer.py
 
