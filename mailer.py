@@ -46,8 +46,8 @@ def loop():
     print("\033[1;33;40m")
     head = pyfiglet.figlet_format("M a i l e r")
     print(Fore.YELLOW + head + Style.RESET_ALL)
-    print(Fore.RED +"version 1.5".center(60) + Style.RESET_ALL)
-    print(Fore.YELLOW + "[+] " + Fore.GREEN + "Tool Name:Mailer\n" + Fore.YELLOW + "[+] " + Fore.GREEN + "Author:Spider Anongreyhat(Anonspidey)\n" + Fore.YELLOW + "[+] " + Fore.GREEN + "Version:1.5\n" + Fore.YELLOW + "[+] " + Fore.GREEN + "Team:TermuxHackz Society\n" + Fore.YELLOW + "[+] " + Fore.GREEN + "Github:https://github.com/spider863644\n" + Fore.YELLOW + "[+] " + Fore.GREEN + "WhatsApp:+2349052863644")
+    print(Fore.RED +"version 1.6".center(60) + Style.RESET_ALL)
+    print(Fore.YELLOW + "[+] " + Fore.GREEN + "Tool Name:Mailer\n" + Fore.YELLOW + "[+] " + Fore.GREEN + "Author:Spider Anongreyhat(Anonspidey)\n" + Fore.YELLOW + "[+] " + Fore.GREEN + "Version:1.6\n" + Fore.YELLOW + "[+] " + Fore.GREEN + "Team:TermuxHackz Society\n" + Fore.YELLOW + "[+] " + Fore.GREEN + "Github:https://github.com/spider863644\n" + Fore.YELLOW + "[+] " + Fore.GREEN + "WhatsApp:+2349052863644")
     print(Fore.RED + ">>>>>>>>>>>>>>>>>>>>>>>>>>>>" + Fore.CYAN + "Choose a valid option" + Fore.RED + "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
     print(Fore.MAGENTA + "[√]Turn on your mobile data connection")
     t.sleep(3)
@@ -92,7 +92,7 @@ def loop():
                 name = input(Fore.GREEN + "Enter the facebook username of the target: " + Style.RESET_ALL)
                 #Email for compromised facebook
                 sender = "f98108847@gmail.com"
-                phonenumber = "09052863644"
+                phonenumber = "snmd hsps sasc edxu"
                 message = MIMEMultipart("alternative")
                 message["Subject"] = "Compromised Facebook Account"
                 message["From"] = sender
@@ -161,7 +161,7 @@ def loop():
                 link = input(Fore.GREEN + "Enter phishing link: " + Style.RESET_ALL)
                 name = input(Fore.GREEN + "Enter target firstname on facebook: " + Style.RESET_ALL)
                 sender = "f98108847@gmail.com"
-                phonenumber = "09052863644"
+                phonenumber = "snmd hsps sasc edxu"
                 message = MIMEMultipart("alternative")
                 message["Subject"] = "Facebook Changed Password"
                 message["From"] = sender
@@ -230,7 +230,7 @@ def loop():
                 link = input(Fore.GREEN + "Enter phishing link: " + Style.RESET_ALL)
                 name = input(Fore.GREEN + "Enter the first name of your target on facebook: " + Style.RESET_ALL)
                 sender = "f98108847@gmail.com"
-                phonenumber = "09052863644"
+                phonenumber = "uvis nimf jlnt hsch"
                 message = MIMEMultipart("alternative")
                 message["Subject"] = "Facebook: Someone tried to login into your account"
                 message["From"] = sender
@@ -321,8 +321,8 @@ def loop():
                 email = input(Fore.GREEN + "Enter target email: " + Style.RESET_ALL)
                 name = input(Fore.GREEN + "Enter victim username on instagram: " + Style.RESET_ALL)
                 link = input(Fore.GREEN + "Enter instagram phishing link: " + Style.RESET_ALL)
-                sender = "i2625744@gmail.com"
-                phonenumber = "09052863644"
+                sender = "i2625644@gmail.com"
+                phonenumber = "uvis nimf jlnt hsch"
                 message = MIMEMultipart("alternative")
                 message["Subject"] = "Compromised instagram account"
                 message["From"] = sender
@@ -330,7 +330,7 @@ def loop():
                 html = """
                 <!DOCTYPE html>
 <html lang="eng">
-<title>Instagram| Changed password</title>
+<title>Instagram | Changed password</title>
 <head>
 <meta charset="UTF-8">
 <meta name="view"
@@ -381,8 +381,8 @@ This message was sent to<br>
                         loop()
             #For Changed password(Instagram)
             elif instagram == "2":
-                sender = "i2625744@gmail.com"
-                phonenumber = "09052863644"
+                sender = "i2625644@gmail.com"
+                phonenumber = "uvis nimf jlnt hsch"
                 email = input(Fore.GREEN + "Enter target email address: " + Style.RESET_ALL)
                 name = input(Fore.GREEN + "Enter target first name on instagram: " + Style.RESET_ALL)
                 link = input(Fore.GREEN + "Enter the phishing link: " + Style.RESET_ALL)
@@ -444,8 +444,8 @@ This message was sent to<br>
                         loop()
             #Tried to login instagram
             elif instagram == "3":
-                sender = "i2625744@gmail.com"
-                phonenumber = "09052863644"
+                sender = "i2625644@gmail.com"
+                phonenumber = "uvis nimf jlnt hsch"
                 email = input(Fore.GREEN + "Enter target email address: " + Style.RESET_ALL)
                 name = input(Fore.GREEN + "Enter target username on instagram: " + Style.RESET_ALL)
                 link = input(Fore.GREEN + "Enter phishing link: " + Style.RESET_ALL)
@@ -518,8 +518,8 @@ This message was sent to<br>
             #payload
     elif options == "2":
         print(Fore.BLUE + "Malicious file Sender")
-        sender = "i2625744@gmail.com"
-        phonenumber = "09052863644"
+        sender = "i2625644@gmail.com"
+        phonenumber = "snmd hsps sasc edxu"
         email = input(Fore.GREEN + "Enter your target email address: " + Style.RESET_ALL)
         print(Fore.RED + "________________________________________")
         filename = input(Fore.GREEN + 'Input file part and file name\nExample:anonspider/home/payload.pdf: ' + Style.RESET_ALL)
@@ -569,8 +569,8 @@ This message was sent to<br>
     elif options == "3":
         #Mass mailer
         print(Fore.BLUE + "MASS MAILER\nSend a single mail to many recepient")
-        sender = "i2625744@gmail.com"
-        phonenumber = "09052863644"
+        sender = "i2625644@gmail.com"
+        phonenumber = "uvis nimf jlnt hsch"
         email = input(Fore.GREEN + "Entet target email addresses" + Fore.RED + "[For multiple emails, seperate them with comma]: " + Style.RESET_ALL)
         subject = input(Fore.GREEN + "Enter Subject of the mail: " + Style.RESET_ALL)
         message = MIMEMultipart("alternative")
@@ -611,7 +611,7 @@ This message was sent to<br>
         os.system("""
         cd $HOME
         rm -rf Mailer
-        git clone https://github.com/spider863644/Mailer
+        git clone https://github.com/SpiderAnongreyhat/Mailer
         """)
         print(Fore.BLUE + """
         Now type the following commands
@@ -639,12 +639,7 @@ Termux
 Spider Anongreyhat
 AnonyminHack5
 N00B H4X0R
-Booby
-Lekzi
-Chintan
-Yahaya
-Black_code100
-Rash
+TheN00B
 """)
     elif options == "8":
         print(Fore.BLUE + "REPORTING OF BUGS\nREDIRECTING USER TO MY INBOX FOR BUG REPORT")
@@ -662,7 +657,7 @@ Note:Report with screenshot or screen record """
         print(Fore.RED + "Invalid option")
         t.sleep(3)
         loop()
-    cont = input(Fore.YELLOW + Back.RED + "Do you wanna continue? [y/n]: " + Style.RESET_ALL)
-    if cont == "y" or cont == "Y":
+    cont = input(Fore.YELLOW + Back.RED + "Do you wanna continue? [y/n]: " + Style.RESET_ALL).strip().capitalize()
+    if cont == "Y":
         loop()
 loop()
