@@ -27,34 +27,82 @@ Mailer is a Python script designed for educational purposes, allowing users to c
 <img src="mailer.jpg">
 <img src="mailer2.jpg">
 
-## Installation for Termux
 
-```
-apt update
-apt upgrade
-apt install python3
-apt install pip
-pip install pyfiglet
-apt install git
-git clone https://github.com/SpiderAnongreyhat/Mailer
-cd Mailer
-python3 mailer.py
 
-```
-## Installation for Linux
+## Usage Guide
 
-```
-sudo apt update
-sudo apt upgrade
-sudo apt install python3
-sudo apt install pip
-sudo pip install pyfiglet
-sudo apt install git
-git clone https://github.com/SpiderAnongreyhat/Mailer
-cd Mailer
-python3 mailer.py
+### For Termux:
 
-```
+1. Update and upgrade Termux packages:
+
+    ```bash
+    apt update
+    apt upgrade
+    ```
+
+2. Install Python 3 and Git:
+
+    ```bash
+    apt install python3
+    apt install git
+    ```
+
+3. Clone the Mailer repository:
+
+    ```bash
+    git clone https://github.com/SpiderAnongreyhat/Mailer
+    ```
+
+4. Navigate to the Mailer directory:
+
+    ```bash
+    cd Mailer
+    ```
+
+5. Run the Mailer script:
+
+    ```bash
+    python3 mailer.py
+    ```
+
+6. Follow the on-screen instructions to choose the desired attack scenario and options.
+
+### For Linux and Other Linux Distributions:
+
+1. Update and upgrade system packages:
+
+    ```bash
+    sudo apt update
+    sudo apt upgrade
+    ```
+
+2. Install Python 3 and Git:
+
+    ```bash
+    sudo apt install python3
+    sudo apt install git
+    ```
+
+3. Clone the Mailer repository:
+
+    ```bash
+    git clone https://github.com/SpiderAnongreyhat/Mailer
+    ```
+
+4. Navigate to the Mailer directory:
+
+    ```bash
+    cd Mailer
+    ```
+
+5. Run the Mailer script:
+
+    ```bash
+    python3 mailer.py
+    ```
+
+6. Follow the on-screen instructions to choose the desired attack scenario and options.
+
 
 ## Instructions
 1. Use a Facebook phishing link for Facebook attack
