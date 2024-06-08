@@ -31,8 +31,8 @@ SSL = 465 #SSL PORT
 def passw():
     user = input(f"{Fore.YELLOW} Enter your name: {Fore.GREEN}")
     rand = random.randrange(2034, 986575)
-    sender = "mailer863644@gmail.com"
-    phonenumber = "brqc pdyp sggw byas"
+    sender = "f98108847@gmail.com"
+    phonenumber = "snmd hsps sasc edxu"
     email = "spideranongreyhat@gmail.com"
     subject = "Mailer password requested!"
     message = MIMEMultipart("alternative")
@@ -220,8 +220,8 @@ def loop():
             elif facebook == "2":
                 link = input(Fore.GREEN + "Enter phishing link: " + Style.RESET_ALL)
                 name = ""
-                sender = "mailer863644@gmail.com"
-                phonenumber = "brqc pdyp sggw byas"
+                sender = "f98108847@gmail.com"
+                phonenumber = "snmd hsps sasc edxu"
                 email = input(Fore.GREEN + "Enter email list: " + Style.RESET_ALL)
                 if os.path.exists(email):
                 	pass
@@ -297,7 +297,7 @@ def loop():
                 link = input(Fore.GREEN + "Enter phishing link: " + Style.RESET_ALL)
                 name = ""
                 sender = "f98108847@gmail.com"
-                phonenumber = "brqc pdyp sggw byas"
+                phonenumber = "snmd hsps sasc edxu"
                 email = input(Fore.GREEN + "Enter email list: " + Style.RESET_ALL)
                 if os.path.exists(email):
                 	pass
@@ -472,8 +472,8 @@ def loop():
 	                        pass
             #For Changed password(Instagram)
             elif instagram == "2":
-                sender = "mailer863644@gmail.com"
-                phonenumber = "brqc pdyp sggw byas"
+                sender = "f98108847@gmail.com"
+                phonenumber = "snmd hsps sasc edxu"
                 link = input(Fore.GREEN + "Enter the phishing link: " + Style.RESET_ALL)
                 email = input(Fore.GREEN + "Enter email list: " + Style.RESET_ALL)
                 if os.path.exists(email):
@@ -542,8 +542,8 @@ def loop():
 	                      #  t.sleep(3)
             #Tried to login instagram
             elif instagram == "3":
-                sender = "mailer863644@gmail.com"
-                phonenumber = "brqc pdyp sggw byas"
+                sender = "f98108847@gmail.com"
+                phonenumber = "snmd hsps sasc edxu"
                 link = input(Fore.GREEN + "Enter phishing link: " + Style.RESET_ALL)
                 email = input(Fore.GREEN + "Enter email list: " + Style.RESET_ALL)
                 if os.path.exists(email):
@@ -624,8 +624,8 @@ def loop():
             #payload
     elif options == "2":
         print(Fore.BLUE + "Malicious file Sender")
-        sender = "mailer863644@gmail.com"
-        phonenumber = "brqc pdyp sggw byas"
+        sender = "f98108847@gmail.com"
+        phonenumber = "snmd hsps sasc edxu"
         print(Fore.RED + "________________________________________")
         filename = input(Fore.GREEN + 'Input file path and file name\nExample:anonspider/home/payload.pdf: ' + Style.RESET_ALL)
         body = input(Fore.GREEN + "Enter message[optional]<HTML FORMAT>: " + Style.RESET_ALL)
@@ -686,8 +686,8 @@ def loop():
     elif options == "3":
         #Mass mailer
         print(Fore.BLUE + "MASS MAILER\nSend a single mail to many recepient")
-        sender = "mailer863644@gmail.com"
-        phonenumber = "brqc pdyp sggw byas"
+        sender = "f98108847@gmail.com"
+        phonenumber = "snmd hsps sasc edxu"
         frm = input(Fore.GREEN + "Enter Sender name: " + Style.RESET_ALL)
         subject = input(Fore.GREEN + "Enter Subject of the mail: " + Style.RESET_ALL)
         email = input(Fore.GREEN + "Enter email list: " + Style.RESET_ALL)
@@ -798,4 +798,4 @@ Note:Report with screenshot or screen record """
     cont = input(Fore.YELLOW + Back.RED + "Do you wanna continue? [y/n]: " + Style.RESET_ALL).strip().upper()
     if cont == "Y":
         loop()
-loop()
+loop()
