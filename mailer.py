@@ -52,7 +52,6 @@ def passw():
         except:
             print(Fore.RED + "[!] Something went wrong")
             t.sleep(3)
-            os.system("xdg-open https://wa.me/2349052863644")
             exit()
      #   print(Fore.GREEN + "Sending mail to", email)
 #        t.sleep(3)
@@ -68,7 +67,8 @@ def passw():
         password = int(input(f"{Fore.LIGHTYELLOW_EX}Enter password given to you: {Fore.GREEN}"))
         if password != rand:
             print(f"{Fore.RED} Incorrect password!\n\nMake sure you enter the correct password")
-            t.sleep(3)
+            t.sleep(2)
+	        os.system("xdg-open https://wa.me/2349052863644")
             passw1()
         else:
             print(f"{Fore.LIGHTMAGENTA_EX} Mailer unlocked√")
