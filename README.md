@@ -136,6 +136,6 @@ Don't forget to leave a star ⭐
 
 ## Password
 Email me for the password: 
-```
-mailto:spideranongreygat@gmail.com
-```
+
+<a href="mailto:spideranongreygat@gmail.com">Spider Anongreyhat</a>
+
