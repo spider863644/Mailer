@@ -135,7 +135,7 @@ This project is licensed under the [MIT License](LICENSE).
 Don't forget to leave a star ⭐
 
 ## Password
-Message me on WhatsApp for password: 
+Email me for the password: 
 ```
-+2349052863644
+mailto:spideranongreygat@gmail.com
 ```
